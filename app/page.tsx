@@ -1,3 +1,4 @@
+import CategoryList from "./_components/ui/cotegory-list";
 import Header from "./_components/ui/header"
 import Search from "./_components/ui/search";
 
@@ -9,7 +10,12 @@ const Home = () => {
     <div className=" px-5 pt-6">
     <Search/>
     </div>
+
+    <div className="px-5 pt-6">
+    <CategoryList/>
+    </div>
     
+     
     </>
     
    
